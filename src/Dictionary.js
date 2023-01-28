@@ -6,7 +6,8 @@ export default function Dictionary(){
     function search(event){
         event.preventDefault()
         }
-        function handleKeywordChange(){
+        function handleKeywordChange(event){
+            setKeyword(event.target.value);
 
         }
 
@@ -14,7 +15,7 @@ export default function Dictionary(){
         
         <form onSubmit={search}>
             <input type="search" autoFocus={true} onChange={handleKeywordChange} />
-            <input type="submit" />
+            <input type="submit" value="Search" />
 
         </form>
     )
