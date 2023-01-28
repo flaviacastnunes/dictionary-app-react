@@ -1,6 +1,7 @@
-
+import React from "react";
 import './App.css';
 import Dictionary from "./Dictionary";
+
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <div className="container">
           <main>
             <Dictionary />
+            
           </main>
           <footer>Coded by Flávia Nunes</footer>
 
