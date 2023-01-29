@@ -12,10 +12,11 @@ function App() {
             <Dictionary />
             
           </main>
-          <footer>Coded by Flávia Nunes</footer>
-
+          
         </div>
       </header>
+      <footer>Coded by Flávia Nunes</footer>
+
     </div>
   );
 }
