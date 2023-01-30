@@ -15,7 +15,7 @@ function App() {
           
         </div>
       </header>
-      <footer>Coded by Flávia Nunes</footer>
+      <footer>Coded by Flávia Nunes, with <a href="https://github.com/flaviacastnunes/dictionary-app-react" target="_blank" rel="noreferrer noopener">open source code on GitHub.</a></footer>
 
     </div>
   );
