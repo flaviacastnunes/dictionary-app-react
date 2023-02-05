@@ -20,7 +20,7 @@
     line-height: 29px;
   }
   
-  .Dictionary input {
+  .Dictionary .search-input {
     display: block;
     height: 64px;
     color: #666666;
