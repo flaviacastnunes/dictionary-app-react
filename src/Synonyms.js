@@ -5,7 +5,7 @@ export default function Synonyms(props) {
 
    
 
-    if (props.synonyms.lenght > 0) {
+    if (props.synonyms) {
         return(
         <div className="Synonyms">
              <strong>Similar:</strong>
